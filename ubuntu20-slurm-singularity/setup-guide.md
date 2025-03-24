@@ -15,10 +15,10 @@
 - **DNS Servers**: 8.8.8.8, 8.8.4.4
 
 ### Patition
-- **/boot/efi**: 600MiB
-- **/boot**: 1024MiB
-- **swap**: 8192MiB
-- **/**: All the rest
+- **/dev/sda1 (/boot/efi)**: 600MiB
+- **/dev/sda2 (/boot)**: 1024MiB
+- **/dev/sda3 (swap)**: 8192MiB
+- **/dev/sda4 (/)**: All the rest
 
 ### OS
 ```
