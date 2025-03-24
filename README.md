@@ -25,17 +25,21 @@ The goal is to provide infrastructure-level guidance for engineers and researche
 ## Directory Structure
 ```
 hpc-home-lab/
-├── 2node-rhel8-uge/              # 2-node cluster with UGE on RHEL 8
+├── 2node-rhel8-uge/                  # 2-node cluster with UGE on RHEL 8
 │   ├── setup-guide.md
 │   ├── infiniband-setup.md
 │   └── scripts/
-├── ubuntu20-slurm-singularity/   # Containerized cluster on Ubuntu
+├── ubuntu20-slurm-singularity/       # Containerized cluster on Ubuntu
 │   ├── setup-guide.md
-│   ├── slurm-config.md
-│   └── singularity-usage.md
-└── common/                       # Shared notes or reusable tuning/configs
+│   ├── intel-oneapi-install.md       # Intel oneAPI installation steps
+│   ├── openmpi-install.md            # OpenMPI build instructions (with icx)
+│   ├── slurm-install.md              # Slurm workload manager installation
+│   ├── slurm-config.md               # Slurm configuration file examples
+│   └── singularity-usage.md          # Container build and usage with oneAPI
+└── common/                           # Shared notes or reusable tuning/configs
     └── tuning-notes.md
 ```
+
 ## How to Use
 Each subdirectory provides step-by-step setup guides (setup-guide.md) and configuration files.
 This repository is intended for learning, experimentation, and reference in home or lab environments.
