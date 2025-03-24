@@ -1,2 +1,48 @@
 # hpc-home-lab
 HPC cluster setup guides and configurations for a home lab environment.
+
+## Overview
+This repository documents the setup and configuration of home lab HPC clusters using RHEL and Ubuntu-based systems.  
+It includes practical deployment examples involving Intel oneAPI, OpenMPI, InfiniBand networking, and job schedulers such as UGE and Slurm.  
+The goal is to provide infrastructure-level guidance for engineers and researchers experimenting with HPC in non-production environments.
+
+## Features / Highlights
+- 2-node HPC cluster on RHEL 8 using Intel oneAPI, OpenMPI, UGE, and InfiniBand
+- Container-based HPC environment on Ubuntu 20.04 using Intel oneAPI, Slurm, and Singularity
+- Includes installation procedures, OS-level tuning, scheduler configs, and usage examples
+
+## Target Environment
+- OS:
+  - RHEL 8 / Rocky Linux 8 (for 2-node cluster)
+  - Ubuntu 20.04 (for container-based setup)
+- HPC Stack:
+  - Intel oneAPI (DPC++/MPI)
+  - OpenMPI
+  - Job Schedulers: UGE / Slurm
+  - Container: Singularity
+  - Network: InfiniBand (Mellanox)
+
+## Directory Structure
+```
+hpc-home-lab/
+├── 2node-rhel8-uge/              # 2-node cluster with UGE on RHEL 8
+│   ├── setup-guide.md
+│   ├── infiniband-setup.md
+│   └── scripts/
+├── ubuntu20-slurm-singularity/   # Containerized cluster on Ubuntu
+│   ├── setup-guide.md
+│   ├── slurm-config.md
+│   └── singularity-usage.md
+└── common/                       # Shared notes or reusable tuning/configs
+    └── tuning-notes.md
+```
+## How to Use
+Each subdirectory provides step-by-step setup guides (setup-guide.md) and configuration files.
+This repository is intended for learning, experimentation, and reference in home or lab environments.
+Please adapt configurations based on your own hardware and software environment.
+
+## License
+Apache 2.0
+
+## Author
+[yusuke-saiki](https://github.com/yusuke-saiki)
