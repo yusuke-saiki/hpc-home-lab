@@ -14,7 +14,7 @@ The goal is to provide infrastructure-level guidance for engineers and researche
 ## Target Environment
 - OS:
   - RHEL 8 / Rocky Linux 8 (for 2-node cluster)
-  - Ubuntu 20.04 (for container-based setup)
+  - Ubuntu Server 20.04 (for container-based setup)
 - HPC Stack:
   - Intel oneAPI (DPC++/MPI)
   - OpenMPI
