@@ -25,7 +25,7 @@ The goal is to provide infrastructure-level guidance for engineers and researche
 ## Directory Structure
 ```
 hpc-home-lab/
-├── 2node-rhel8-uge/                  # 2-node cluster with UGE on RHEL 8
+├── rocky8-uge/                       # 2-node cluster with UGE on RHEL 8
 │   ├── setup-guide.md
 │   ├── infiniband-setup.md
 │   └── scripts/
