@@ -13,3 +13,9 @@
 - **IPv4 Address**: 172.16.1.10/24
 - **Default Gateway**: 172.16.1.224
 - **DNS Servers**: 8.8.8.8, 8.8.4.4
+
+### Patition
+- **/boot/efi**: 600MiB
+- **/boot**: 1024MiB
+- **swap**: 8192MiB
+- **/**: 
