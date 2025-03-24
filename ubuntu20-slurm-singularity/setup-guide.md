@@ -18,4 +18,4 @@
 - **/boot/efi**: 600MiB
 - **/boot**: 1024MiB
 - **swap**: 8192MiB
-- **/**: 
+- **/**: All the rest
