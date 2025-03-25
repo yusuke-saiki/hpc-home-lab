@@ -101,6 +101,13 @@ echo 'export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+## munge.key
+```
+dd if=/dev/urandom bs=1 count=1024 of=/etc/munge/munge.key
+chown munge:munge /etc/munge/munge.key
+chmod 400 /etc/munge/munge.key
+```
+
 ## Enable and Start Services
 ```
 systemctl enable --now munge
