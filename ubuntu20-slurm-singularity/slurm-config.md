@@ -81,7 +81,7 @@ chmod 777 /var/spool/slurmctld/
 
 ## Register Slurm with systemd
 ```
-cd /root/slurm/slurm-23.02.3/etc
+cd slurm-23.02.3/etc
 cp slurmctld.service /etc/systemd/system/
 cp slurmd.service /etc/systemd/system/
 ```
