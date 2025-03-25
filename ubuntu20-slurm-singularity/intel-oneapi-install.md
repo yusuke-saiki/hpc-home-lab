@@ -50,7 +50,7 @@ module avail
 ### Symlink latest versions (optional but useful)
 ```
 ln -s /opt/intel/oneapi/compiler/2023.1.0/modulefiles/compiler /home/modulefiles/intel/compiler/latest
-ln -s /opt/intel/oneapi/mpi/2021.14/etc/modulefiles/mpi /home/modulefiles/intel/mpi/latest
+ln -s /opt/intel/oneapi/mpi/2021.15/etc/modulefiles/mpi /home/modulefiles/intel/mpi/latest
 ```
 
 ### Add module loads to .bashrc
