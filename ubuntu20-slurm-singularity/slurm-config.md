@@ -36,12 +36,10 @@ apt -y install libdbus-1-dev
 ## Download and Build Slurm
 ```
 wget https://download.schedmd.com/slurm/slurm-23.02.3.tar.bz2
-mkdir slurm
-mv slurm-23.02.3.tar.bz2 slurm/
-cd slurm
+
 tar -jxvf slurm-23.02.3.tar.bz2
 cd slurm-23.02.3/
-./configure --prefix=/usr/local --sysconfdir=/usr/local/etc --with-pmix
+./configure
 make
 make install
 ```
