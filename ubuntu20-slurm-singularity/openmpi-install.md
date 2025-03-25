@@ -28,9 +28,7 @@ CC=icx CXX=icpx FC=ifx ./configure --without-verbs --prefix=/opt/openmpi-4.1.5_i
 
 # Build and install
 ```
-make -j 20
-make check
-sudo make install
+make -j 20; make check; make install
 ```
 
 ## Create a Modulefile for OpenMPI
