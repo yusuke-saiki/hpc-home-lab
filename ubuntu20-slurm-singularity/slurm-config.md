@@ -46,6 +46,8 @@ make install
 
 ## Configure Slurm
 ```
+cp /root/slurm-23.02.3/etc/slurm.conf.example /usr/local/etc/slurm.conf
+
 vi /usr/local/etc/slurm.conf
 ----------------------------
 ClusterName=SingularityCluster
