@@ -22,6 +22,8 @@ cd openmpi-4.1.5/
 # Configure with Intel compilers
 ```
 CC=icx CXX=icpx FC=ifx ./configure --without-verbs --prefix=/opt/openmpi-4.1.5_icx-2023.1
+or
+CC=icx CXX=icpx FC=ifx ./configure --without-verbs --prefix=/opt/openmpi-4.1.5_icx-2023.1 --disable-mpi-fortran
 ```
 
 # Build and install
