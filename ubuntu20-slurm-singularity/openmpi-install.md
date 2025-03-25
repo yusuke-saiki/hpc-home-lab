@@ -15,6 +15,7 @@ wget https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-4.1.5.tar.bz2
 ## Extract and Build
 ```
 apt -y install lbzip2
+
 tar xf openmpi-4.1.5.tar.bz2
 cd openmpi-4.1.5/
 ```
@@ -34,6 +35,7 @@ make -j 20; make check; make install
 ## Create a Modulefile for OpenMPI
 ```
 mkdir -p /home/modulefiles/openmpi
+
 cat << EOF > /home/modulefiles/openmpi/4.1.5_icx-2023.1
 #%Module1.0
 ##
