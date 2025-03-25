@@ -62,11 +62,9 @@ module load openmpi/4.1.5_icx-2023.1
 
 ## Final .bashrc (Excerpt)
 ```
-module use /home/modulefiles/intel
+module use /home/modulefiles
 module load compiler/latest
 module load mpi/latest
-# module load openmpi/4.1.5_icx-2023.1
-
+module load openmpi/4.1.5_icx-2023.1
 export PATH=/opt/intel/oneapi/compiler/2023.1.0/linux/bin:$PATH
-export LD_LIBRARY_PATH=/opt/intel/oneapi/compiler/2023.1.0/linux/compiler/lib/intel64_lin:$LD_LIBRARY_PATH
 ```
