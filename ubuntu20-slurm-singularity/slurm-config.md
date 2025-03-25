@@ -77,6 +77,7 @@ NodeName=ubuntu20 CPUs=4 Sockets=1 CoresPerSocket=4 ThreadsPerCore=1 State=UNKNO
 PartitionName=debug Nodes=ALL Default=YES MaxTime=INFINITE State=UP
 ----------------------------
 
+mkdir -p /var/spool/slurmd
 mkdir -p /var/spool/slurmctld
 chmod 777 /var/spool/slurmctld/
 ```
@@ -86,6 +87,18 @@ chmod 777 /var/spool/slurmctld/
 cd slurm-23.02.3/etc
 cp slurmctld.service /etc/systemd/system/
 cp slurmd.service /etc/systemd/system/
+```
+
+## pmi2
+```
+cd slurm-23.02.3/contribs/pmi2
+make
+make install
+
+find /usr/local -name "libpmi2.so"
+
+echo 'export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ## Enable and Start Services
