@@ -1,0 +1,14 @@
+#%Module1.0
+##
+## OpenMPI 4.1.5 (Intel oneAPI Compiler 2023.1)
+##
+
+# Set paths
+prepend-path PATH /opt/openmpi-4.1.5_icx-2023.1/bin
+prepend-path LD_LIBRARY_PATH /opt/openmpi-4.1.5_icx-2023.1/lib
+prepend-path MANPATH /opt/openmpi-4.1.5_icx-2023.1/share/man
+
+# Set environment variables
+setenv OMPI_HOME /opt/openmpi-4.1.5_icx-2023.1
+setenv MPI_HOME /opt/openmpi-4.1.5_icx-2023.1
+setenv OPAL_PREFIX /opt/openmpi-4.1.5_icx-2023.1
