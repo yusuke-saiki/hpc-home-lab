@@ -24,19 +24,28 @@ The goal is to provide infrastructure-level guidance for engineers and researche
 
 ## Directory Structure
 ```
+## Directory Structure
+```bash
 hpc-home-lab/
-├── rocky8-uge/                       # 2-node cluster with UGE on RHEL 8
+├── rocky8-uge/                           # 2-node cluster with UGE on RHEL 8
 │   ├── setup-guide.md
 │   ├── infiniband-setup.md
 │   └── scripts/
-├── ubuntu20-slurm-singularity/       # Containerized cluster on Ubuntu
-│   ├── setup-guide.md
-│   ├── intel-oneapi-install.md       # Intel oneAPI installation steps
-│   ├── openmpi-install.md            # OpenMPI build instructions (with icx)
-│   ├── slurm-install.md              # Slurm workload manager installation
-│   ├── slurm-config.md               # Slurm configuration file examples
-│   └── singularity-usage.md          # Container build and usage with oneAPI
-└── common/                           # Shared notes or reusable tuning/configs
+├── ubuntu20-slurm-singularity/           # Containerized cluster on Ubuntu
+│   ├── setup-guide.md                    # Overview and full installation flow
+│   ├── intel-oneapi-install.md           # Intel oneAPI installation steps
+│   ├── openmpi-install.md                # OpenMPI build instructions (with icx)
+│   ├── slurm-install.md                  # Slurm workload manager installation
+│   ├── slurm-config.md                   # Slurm configuration file examples
+│   ├── singularity-usage.md              # Singularity container build & usage
+│   ├── demo/                             # Simple example for MPI testing
+│   │   ├── mpi_test.c
+│   │   └── mpi_test.sh
+│   └── sample-configs/                   # Actual config files used in deployment
+│       ├── slurm.conf
+│       ├── oneapi-mpi.def
+│       └── 4.1.5_icx-2023.1              # OpenMPI modulefile for icx
+└── common/                               # Shared notes or reusable tuning/configs
     └── tuning-notes.md
 ```
 
