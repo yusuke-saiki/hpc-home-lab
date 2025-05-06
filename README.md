@@ -2,9 +2,9 @@
 HPC cluster setup guides and configurations for a home lab environment.
 
 ## Overview
-This repository describes the setup and configuration of a home lab HPC cluster using RHEL and Ubuntu-based systems. 
-Included are practical deployment examples including CUDA, Intel oneAPI, OpenMPI, InfiniBand networking, and job schedulers such as Slurm. 
-The goal of this book is to provide infrastructure-level guidance to engineers and researchers experimenting with HPC in non-production environments.
+This repository describes the setup and configuration of a home lab HPC cluster using RHEL and Ubuntu-based systems.  
+Included are practical deployment examples involving CUDA, Intel oneAPI, OpenMPI, InfiniBand networking, and job schedulers such as Slurm.  
+The goal of this repository is to provide infrastructure-level guidance for engineers and researchers experimenting with HPC in non-production environments.
 
 ## Features / Highlights
 - 2-node HPC cluster on Rocky Linux 9 using Intel oneAPI, OpenMPI, Slurm, and InfiniBand
@@ -32,7 +32,7 @@ hpc-home-lab/
 │   ├── os-setup.md                       # Base OS configuration and tuning
 │   ├── intel-oneapi-install.md           # Intel oneAPI installation (Base + HPC)
 │   ├── slurm-config.md                   # Slurm configuration and examples
-│   ├── infiniband-usage.md               # InfiniBand setup and usage on Rocky 8
+│   ├── infiniband-usage.md               # InfiniBand setup and usage on Rocky 9
 │   ├── demo/                             # Slurm job submission examples (WIP)
 │   │   ├── 
 │   │   └── 
