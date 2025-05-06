@@ -26,10 +26,6 @@ The goal of this book is to provide infrastructure-level guidance to engineers a
 
 ## Directory Structure
 ```
-## Directory Structure
-```bash
-## Directory Structure
-```bash
 hpc-home-lab/
 ├── rocky9-slurm/                         # 2-node HPC cluster on Rocky Linux 9 with Slurm
 │   ├── setup-guide.md                    # Overall procedure for building the cluster
