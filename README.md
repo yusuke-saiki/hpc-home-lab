@@ -40,7 +40,7 @@ hpc-home-lab/
 │       ├── slurm.conf
 │       ├── slurmdbd.conf
 │       └── cgroup.conf
-├── rocky 9-slurm-singularity/            # Container-based HPC node with Slurm on Rocky Linux 9
+├── rocky9-slurm-singularity/             # Container-based HPC node with Slurm on Rocky Linux 9
 │   ├── setup-guide.md                    # Overview and full setup flow
 │   ├── intel-oneapi-install.md           # Intel oneAPI installation steps
 │   ├── slurm-install.md                  # Slurm workload manager installation from source
@@ -54,7 +54,7 @@ hpc-home-lab/
 │       ├── slurmdbd.conf
 │       ├── cgroup.conf
 │       └── oneapi-mpi.def                
-├── ubuntu 24-CUDA-Slurm/                 # Single node on Ubuntu 24 with NVIDIA proprietary drivers, CUDA Toolkit, and Slurm
+├── ubuntu24-CUDA-Slurm/                  # Single node on Ubuntu 24 with NVIDIA proprietary drivers, CUDA Toolkit, and Slurm
 │   ├── setup-guide.md                    # Overview and full setup flow
 │   ├── nvidia-drivers-install.md         # NVIDIA proprietary drivers installation steps
 │   ├── cuda-install.md                   # CUDA Toolkit installation steps
